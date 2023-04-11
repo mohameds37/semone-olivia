@@ -1,0 +1,453 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.border-mine
+{
+    border: solid 2px #20c997 !important;
+}
+
+.text-mine
+{
+    color: #20c997 !important;
+}
+
+.bg-mine
+{
+    background-color: #20c997 !important;
+}
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.eh-da
+{
+    background-color: rgb(117, 117, 117);
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+header
+{
+    background-image: url(../Images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #20c997;
+}
+
+.layer
+{
+    background-color: rgba(15, 15, 15, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.text h1
+{
+    font-size: 56px;
+}
+
+.hire-me
+{
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: none;
+    transition: 0.3s;
+}
+
+.hire-me:hover
+{
+    background-color: #20c997;
+    color: #fff !important;
+}
+
+.navbar
+{
+    background-color: rgba(0,0,0, 0.726);
+}
+
+.about
+{
+    height: 100vh;
+
+}
+
+.about-title h2
+{
+    font-size: 150px;
+    color: #f1f1f1;
+
+}
+
+.about-title h3
+{
+    font-size: 35px;
+}
+
+.about-title h3::after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: #20c997;
+    height: 2px;
+    width: 45%;
+}
+
+.brdr
+{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(110, 110, 110);
+    margin-bottom: 10px;
+}
+
+.cv
+{
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.cv:hover
+{
+    background-color: #1db688;
+    box-shadow: 8px 8px 9px #dddddd;
+}
+
+.bala7
+{
+    text-align: center;
+}
+
+.bala7 h2
+{
+    font-size: 50px;
+    color: #00000046;
+}
+
+.bala77
+{
+    text-align: center;
+    border-left: solid 2px #00000046;
+}
+
+.bala77 h2
+{
+    font-size: 50px;
+    color: #00000046;
+}
+
+.service
+{
+    height: 90vh;
+    background-color: #dddddd28;
+}
+
+.summery
+{
+    height: 215vh;
+}
+
+.year
+{
+    border-radius: 5px;
+    padding: 0px 10px;
+    width: 21%;
+    color: #fff;
+}
+
+.my-skills
+{
+    margin-left: 105px;
+}
+
+
+.percentage-grey
+{
+    border-radius: 5px;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.percentage-green
+{
+    border-radius: 5px;
+    width: 65%;
+    height: 10px;
+    background-color: #20c997;
+}
+
+.percentage-green-95
+{
+    border-radius: 5px;
+    width: 95%;
+    height: 10px;
+    background-color: #20c997;
+}
+
+.percentage-green-80
+{
+    border-radius: 5px;
+    width: 80%;
+    height: 10px;
+    background-color: #20c997;
+}
+
+.dcv
+{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+    width: 10%;
+    padding: 10px 25px;
+    text-align: center;
+    border: solid 1px grey;
+    color: grey;
+    background: none;
+    transition: 0.5s ease-in-out;
+}
+
+.dcv:hover
+{
+    background-color: grey;
+    box-shadow: 8px 8px 9px #dddddd;
+    color: #fff;
+}
+
+.portfolio
+{
+    height: 200vh;
+    background-color: rgba(111, 111, 111, 0.06);
+}
+
+.portfolio-text div
+{
+    margin: 15px;
+}
+
+.image-father
+{
+    overflow: hidden;
+    position: relative;
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.image-father img
+{
+    width: 100%;
+    transition: 1s;
+}
+
+.layerrr
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+    transition: 0.5s ease-in-out;
+}
+
+
+.image-father:hover .layerrr
+{
+    opacity: 100%;
+}
+
+.image-father:hover img
+{
+    transform: scale(1.1,1.1);
+
+}
+
+.image2
+{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.image3
+{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.image4
+{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.image5
+{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.image6
+{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.image7
+{
+    width: 410px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.clients
+{
+    height: 100vh;
+}
+
+.patric
+{
+    background-color: rgba(0, 0, 0, 0.02);
+
+}
+
+.card-info p
+{
+    margin-bottom: 0px;
+}
+
+.contact
+{
+    height: 90vh;
+    background-color: #dddddd28;
+}
+
+.info p
+{
+    margin: 20px 0px;
+}
+
+.inputs input
+{
+    width: 45%;
+    margin-right: 5%;
+    border: solid 3px #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.input
+{
+    border: solid 3px #e0e0e0;
+    border-radius: 10px;
+}
+
+.copyright p
+{
+    color: grey;
+}
+
+
+.client-img
+{
+    width: 80px;
+    border: solid 2px #f4f4f4;
+    transform: translateY(50%);
+    height: 80px;
+}
+
+.client-feedback
+{
+    border: solid 2px #f4f4f4;
+}
+
+.client-feedback .brdr
+{
+    width: 10%;
+    height: 1.5px;
+    background-color: #ff206e;
+    margin: 10px auto;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0px;    
+}
+
+.clieents
+{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.item h2
+{
+    position: relative;
+    padding: 20px 0px;
+}
+
+.item h2::after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: #ff206e;
+    height: 1px;
+    width: 25%;
+}
